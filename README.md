@@ -11,9 +11,9 @@ I'm `Adnan Sarkar`. This is the 9th assignment in my [Full Stack Javascript](htt
 ## 🖥 Preview
 `note:` please make sure the preview screen is `1920 x 1080`
 
-[Live Preview]()
+[Live Preview](https://developer-landing-page-project-9.netlify.app/)
 
-![]()
+![](Developer%20Landing%20Page.png)
 
 ##  What I have learned in this project?
 - Flex-box for elements alignment.

@@ -164,7 +164,7 @@ nav {
 /*    api css      */
 /* =============== */
 #api {
-    margin: 300px 50px 100px 50px;
+    margin: 150px 50px 100px 50px;
 }
 
 .api-cards {
@@ -253,14 +253,12 @@ nav {
     font-size: 20px;
     color: #5D34FD;
     font-weight: 900;
-    margin-right: 210px;
     margin-bottom: 40px;
     cursor: pointer;
 }
 
 .blog-cards {
     display: flex;
-    justify-content: space-around;
 }
 
 .blog-card {
