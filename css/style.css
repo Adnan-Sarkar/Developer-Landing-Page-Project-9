@@ -36,6 +36,10 @@ ol {
     font-weight: 900;
 }
 
+.tittle h2 span {
+    display: block;
+}
+
 
 
 /* =============== */
@@ -68,6 +72,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 50px;
 }
 
@@ -95,6 +100,14 @@ nav {
     color: #000;
 }
 
+#nav-responsive-click {
+    display: none;
+}
+
+.nav-responsive-btn {
+    display: none;
+}
+
 /* =============== */
 /*     hero css    */
 /* =============== */
@@ -111,6 +124,10 @@ nav {
     color: #fff;
     position: relative;
     padding-top: 20px;
+}
+
+.hero-left h1 span {
+    display: block;
 }
 
 .hero-left h1::before {
@@ -188,10 +205,18 @@ nav {
     font-size: 30px;
 }
 
+.api-card h3 span {
+    display: block;
+}
+
 .api-card p {
     font-family: "Lato", sans-serif;
     font-size: 20px;
     padding-top: 8px;
+}
+
+.api-card p span {
+    display: block;
 }
 
 .card-active {
@@ -239,13 +264,17 @@ nav {
 /*    blog css     */
 /* =============== */
 #blog {
-    margin: 100px 50px 100px 50px;
+    margin: 100px 50px;
 }
 
 .blog-tittle {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.blog-tittle h2 span {
+    display: block;
 }
 
 .blog-tittle  span {
@@ -303,10 +332,18 @@ nav {
     margin: 20px 0 15px 0;
 }
 
+.blog-card-right h3 span {
+    display: block;
+}
+
 .blog-card-right p {
     font-family: "Lato", sans-serif;
     font-size: 18px;
     padding-bottom: 100px;
+}
+
+.blog-card-right p span {
+    display: block;
 }
 
 .blog-author {
@@ -358,8 +395,9 @@ nav {
 }
 
 .faq-tittle h4 {
+    width: 90%;
     font-family: "Lato", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
     line-height: 1.5;
 }
@@ -522,7 +560,7 @@ footer {
     color: #adadad;
 }
 
-.footer-rifgt-link {
+.footer-right-link {
     border-right: 1px solid #fff;
     padding-right: 30px;
 }

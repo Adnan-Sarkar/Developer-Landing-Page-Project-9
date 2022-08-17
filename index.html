@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Developer Landing Page</title>
 </head>
 <body>
@@ -19,6 +20,10 @@
                     <img src="assets/Logo.png" alt="logo">
                 </a>
             </div>
+            <input type="checkbox" name="" id="nav-responsive-click">
+            <label for="nav-responsive-click" class="nav-responsive-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
             <ul class="nav-items">
                 <li class="nav-item"><a href="#">Home</a></li>
                 <li class="nav-item"><a href="#">API's</a></li>
@@ -36,7 +41,7 @@
         <!-- hero -->
         <section id="hero">
             <div class="hero-left">
-                <h1>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.</h1>
+                <h1>Lorem ipsum dolor sit amet,<span></span> consectetur adipiscing elit.</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div class="hero-right">
@@ -54,37 +59,37 @@
         <!-- API's categories -->
         <section id="api">
             <div class="tittle">
-                <h2>APIs<br>by category</h2>
+                <h2>APIs<span></span> by category</h2>
             </div>
             <div class="api-cards">
                 <div class="api-card card-active">
                     <img src="assets/Group 97.png" alt="icon">
-                    <h3>Identity & <br>Security</h3>
-                    <p>Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+                    <h3>Identity &<span></span> Security</h3>
+                    <p>Lorem ipsum dolor sit amt,<span></span> consectetur adipiscing.</p>
                 </div>
 
                 <div class="api-card">
                     <img src="assets/Group 98.png" alt="icon">
-                    <h3>Data & <br>Analutics</h3>
-                    <p>Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+                    <h3>Data &<span></span> Analutics</h3>
+                    <p>Lorem ipsum dolor sit amt,<span></span> consectetur adipiscing.</p>
                 </div>
 
                 <div class="api-card">
                     <img src="assets/Group 99.png" alt="icon">
                     <h3>Commercial</h3>
-                    <p>Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+                    <p>Lorem ipsum dolor sit amt,<span></span> consectetur adipiscing.</p>
                 </div>
 
                 <div class="api-card">
                     <img src="assets/Group 100.png" alt="icon">
-                    <h3>Offers & <br>Benefits</h3>
-                    <p>Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+                    <h3>Offers &<span></span> Benefits</h3>
+                    <p>Lorem ipsum dolor sit amt,<span></span> consectetur adipiscing.</p>
                 </div>
 
                 <div class="api-card">
                     <img src="assets/Group 101.png" alt="icon">
-                    <h3>Payment <br>Methods</h3>
-                    <p>Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+                    <h3>Payment<span></span> Methods</h3>
+                    <p>Lorem ipsum dolor sit amt,<span></span> consectetur adipiscing.</p>
                 </div>
                 <div class="api-card-arrow">
                     <i class="fa-solid fa-chevron-right"></i>
@@ -95,7 +100,7 @@
         <!-- Latest blog -->
         <section id="blog">
             <div class="tittle blog-tittle">
-                <h2>Latest<br>blog article</h2>
+                <h2>Latest<span></span> blog article</h2>
                 <span>See All Article</span>
             </div>
             <div class="blog-cards">
@@ -105,8 +110,8 @@
                     </div>
                     <div class="blog-card-right">
                         <span>06 Aug 2019</span>
-                        <h3>Custom-made <br>loyalty programme</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Morbi justo metus, euismod <br>quis lorem ornare, convallis sollicitudin <br> neque. Mauris sit amet congue metus, <br> ut pharetra lectus</p>
+                        <h3>Custom-made<span></span> loyalty programme</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur<span></span> adipisicing elit. Morbi justo metus, euismod<span></span> quis lorem ornare, convallis sollicitudin<span></span> neque. Mauris sit amet congue metus,<span></span> ut pharetra lectus</p>
                         <div class="blog-author">
                             <img src="assets/IMAGE HERE (2).png" alt="image">
                             <h4>Bobby Wagner</h4>
@@ -120,8 +125,8 @@
                     </div>
                     <div class="blog-card-right">
                         <span>06 Aug 2019</span>
-                        <h3>You can <br>traveling with ease</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Morbi justo metus, euismod <br>quis lorem ornare, convallis sollicitudin <br> neque. Mauris sit amet congue metus, <br> ut pharetra lectus</p>
+                        <h3>You can<span></span> traveling with ease</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur<span></span> adipisicing elit. Morbi justo metus, euismod<span></span> quis lorem ornare, convallis sollicitudin<span></span> neque. Mauris sit amet congue metus,<span></span> ut pharetra lectus</p>
                         <div class="blog-author">
                             <img src="assets/IMAGE HERE (2).png" alt="image">
                             <h4>Gloria Graham</h4>
@@ -135,8 +140,8 @@
         <section id="faq">
             <div class="faq-left">
                 <div class="tittle faq-tittle">
-                    <h2>Have<br>a question</h2>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique mollitia <br>nam animi exercitationem et eum enim nulla veritatis,</h4>
+                    <h2>Have<span></span> a question</h2>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique mollitia<span></span> nam animi exercitationem et eum enim nulla veritatis,</h4>
                 </div>
                 <div class="faq-content">
                     <h2>Do you have any question about anythings ?</h2>
@@ -183,9 +188,9 @@
                 </ul>
             </div>
             <ul>
-                <li class="footer-rifgt-link"><a href="#">FAQ</a></li>
-                <li class="footer-rifgt-link"><a href="#">Business</a></li>
-                <li class="footer-rifgt-link"><a href="#">Help</a></li>
+                <li class="footer-right-link"><a href="#">FAQ</a></li>
+                <li class="footer-right-link"><a href="#">Business</a></li>
+                <li class="footer-right-link"><a href="#">Help</a></li>
             </ul>
         </div>
     </footer>
